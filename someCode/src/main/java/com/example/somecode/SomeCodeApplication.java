@@ -6,9 +6,10 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 @SpringBootApplication
 public class SomeCodeApplication {
 
-    public String s = "Some code";
+    public String s = "Another code";
     int i;
-    long l = 2;
+    long l;
+    long l2 = 2;
     char c;
 
     public static void main(String[] args) {
